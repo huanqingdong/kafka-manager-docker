@@ -7,7 +7,7 @@ ENV ZK_HOSTS=localhost:2181 \
     KM_CONFIGFILE="conf/application.conf"
 
 ADD start-kafka-manager.sh /kafka-manager-${KM_VERSION}/start-kafka-manager.sh
-ADD kafka-manager-${KM_VERSION}.zip /
+
 WORKDIR /
 
 RUN wget https://github.com/huanqingdong/CMAK/releases/download/${KM_VERSION}/kafka-manager-${KM_VERSION}.zip && \
