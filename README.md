@@ -33,8 +33,8 @@ docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="192.168.1.14:2181" -e APPLICATION
       - zookeeper
     environment:
       ZK_HOSTS: zookeeper:2181
-      APPLICATION_SECRET: faith
-      KM_ARGS: -Djava.net.preferIPv4Stack=true
+      KM_USERNAME: admin
+      KM_PASSWORD: admin
   ```
 
   
@@ -49,8 +49,8 @@ docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="192.168.1.14:2181" -e APPLICATION
       - "9000:9000"
     environment:
       ZK_HOSTS: 192.168.1.14:2181
-      APPLICATION_SECRET: faith
-      KM_ARGS: -Djava.net.preferIPv4Stack=true
+      KM_USERNAME: admin
+      KM_PASSWORD: admin
   
   ```
 
