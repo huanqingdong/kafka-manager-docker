@@ -1,1 +1,1 @@
-docker build -t huanqingdong/kafka-manager:2.0.0.2 .
+docker build -t huanqingdong/kafka-manager:1.3.3.23 .

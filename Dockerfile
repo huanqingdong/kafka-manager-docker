@@ -3,7 +3,7 @@ FROM huanqingdong/centos7-jdk8
 MAINTAINER Faith <huanqingdong@nosql.tech>
 
 ENV ZK_HOSTS=localhost:2181 \
-    KM_VERSION=2.0.0.2 \
+    KM_VERSION=1.3.3.23 \
     KM_CONFIGFILE="conf/application.conf"
 
 ADD start-kafka-manager.sh /kafka-manager-${KM_VERSION}/start-kafka-manager.sh
